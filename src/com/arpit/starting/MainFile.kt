@@ -30,6 +30,8 @@ fun main(args: Array<String>) {
     // lets call the lamda function
     arpit.displayNameWithLamda(:: printName)
 
+    println("${arpit.human}")
+
 }
 
 fun printName(s: String): Unit {
