@@ -1,4 +1,4 @@
-package com.arpit.`if`
+package com.arpit.general
 
 
 /**
@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     var sunil = Person("Sunil", 27, "Delhi")
 
     /**
-     * using if as a expression and assigning the result back to the message var.
+     * using general as a expression and assigning the result back to the message var.
      */
     var message = if (arpit.placeOfBirth == "Bijnore")
         "He might be Arpit"
@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
 
 
 /**
- * might not be the best way to showcase the if expression usage
+ * might not be the best way to showcase the general expression usage
  */
 class Person(var name : String , var age: Int, val placeOfBirth: String) {
 }
