@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 }
 
 
-fun <T> pickNumber(items: List<T>, predicate: (T) -> Boolean): T {
+inline fun <T> pickNumber(items: List<T>, predicate: (T) -> Boolean): T {
 
     for (item in items) {
         if (predicate(item)) return item
